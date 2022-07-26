@@ -20,5 +20,6 @@ const galleryMarkup = images.reduce(
   
 const galleryList = document.querySelector('.gallery');
 galleryList.insertAdjacentHTML("afterbegin", galleryMarkup);
-galleryList.setAttribute("style", "list-style-type:none; display: flex;");
+galleryList.setAttribute("style", "list-style-type:none; display: flex;  justify-content: space-evenly;");
+
 console.log(galleryList)
